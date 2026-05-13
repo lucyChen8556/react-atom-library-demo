@@ -1,0 +1,1 @@
+function u({bottomMessage:l,builtInValidationMessage:e,errorMessage:r,message:n,state:s}){const o=s==="invalid"?r??e??n??null:s==="success"?n??null:e??null;return{resolvedMessage:o,visibleBottomMessage:o==null?l:null}}function i(...l){return l.filter(Boolean).join(" ")||void 0}export{i as b,u as r};
